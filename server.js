@@ -8,6 +8,13 @@ const app = express();
 const syncRouter = require("./routes/sync");
 app.use("/sync", syncRouter);
 
+const bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({ extended: false }));
+
+const whatsappRouter = require("./routes/whatsapp");
+app.use("/whatsapp", whatsappRouter);
+
+
 app.use(express.json());
 app.use(cors());
 app.use(helmet());
