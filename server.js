@@ -3,6 +3,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 require("dotenv").config();
 
+const db = require("./models/initDB");
 const app = express();
 app.use(express.json());
 app.use(cors());
