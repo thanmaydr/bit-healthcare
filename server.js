@@ -5,6 +5,9 @@ require("dotenv").config();
 
 const db = require("./models/initDB");
 const app = express();
+const syncRouter = require("./routes/sync");
+app.use("/sync", syncRouter);
+
 app.use(express.json());
 app.use(cors());
 app.use(helmet());
