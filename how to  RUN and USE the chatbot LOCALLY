@@ -1,0 +1,79 @@
+
+E-Bharath
+E-Bharath — Gateway to the digital era of a healthy India
+
+
+ ***Key Features***
+
+ Offline & Low-Network Access  
+Works seamlessly in **no network** or **low network** areas through:
+- Offline chatbot mode  
+- WhatsApp-based fallback  
+
+ Digital Health ID  
+Every user receives a unique digital health identity for:
+- Secure access  
+- Validated medical records  
+- Seamless appointments  
+
+ Verified Doctors & Practitioners  
+All medical practitioners are **verified** before approval to ensure trustworthy healthcare.
+
+***Smart AI Chatbot***  
+Helps users:
+- Identify symptoms  
+- Get first-level guidance  
+- Navigate health services  
+
+ Appointment Booking & Reminders  
+Book doctor consultations and get **smart reminders** — even offline.
+
+***📁 Project Structure***
+
+```
+chatbot-backend/
+│── index.js           # Main backend server
+│── chatbot.js         # Chatbot logic
+│── data/dataset.json  # Symptom–response dataset
+│── public/index.html  # Basic frontend
+│── package.json
+│── .gitignore
+```
+
+***HOW TO INSTALL CHATBOT FILES AND RUN LOCALLY WITHOUT NETWORK TOO**
+
+ Installation & Setup
+
+1-> Install Dependencies
+```
+npm install
+```
+
+2️-> Run the Server
+```
+npm start
+```
+3-> once all done , open terminal (choose right path ...\chatbot backend...)
+run:-node index.js
+
+4-> Access the Chatbot  
+Open your browser at:
+
+
+http://localhost:3000
+
+5-> ask simple question(based on given dataset )
+question:-(for example) i have fever
+answer:- (gives to symtoms and advice)
+
+
+***Vision :-***
+1.scale up chatbot using CBT and train the model on more govt approved url's 
+2.make chatbot used for directing the app features too
+
+E-Bharath is built on the mission:
+
+ “To bring accessible, reliable, and intelligent healthcare to every citizen of india "
+
+
+ Empowering India’s Digital Health Revolution.
