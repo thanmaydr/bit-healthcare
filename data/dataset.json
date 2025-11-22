@@ -1,0 +1,307 @@
+[
+  {
+    "symptom": "fever_mild",
+    "category": "general",
+    "examples": [
+      "I have a fever",
+      "Feeling warm",
+      "temperature 99-100"
+    ],
+    "response": "Mild fever is usually caused by viral infections, dehydration, or fatigue. Rest well, drink fluids, and monitor temperature. If fever increases or lasts beyond 48 hours, consult a doctor.",
+    "red_flag": false
+  },
+  {
+    "symptom": "fever_high",
+    "category": "emergency",
+    "examples": [
+      "very high fever",
+      "103 fever",
+      "shivering with fever"
+    ],
+    "response": "High fever with shivering or confusion can be serious. Please seek medical care immediately or visit the nearest hospital.",
+    "red_flag": true
+  },
+  {
+    "symptom": "cough_cold",
+    "category": "general",
+    "examples": [
+      "cold",
+      "cough",
+      "runny nose"
+    ],
+    "response": "Common cold and cough are usually viral. Stay hydrated, take warm fluids, and avoid cold air. Symptoms usually improve in a few days.",
+    "red_flag": false
+  },
+  {
+    "symptom": "cough_difficulty_breathing",
+    "category": "emergency",
+    "examples": [
+      "cough and can't breathe",
+      "breathing problem",
+      "wheezing severe"
+    ],
+    "response": "Difficulty breathing is a medical emergency. Please get immediate help or visit the nearest hospital.",
+    "red_flag": true
+  },
+  {
+    "symptom": "headache_mild",
+    "category": "general",
+    "examples": [
+      "headache",
+      "mild headache",
+      "stress pain in head"
+    ],
+    "response": "Mild headaches often come from stress, dehydration, or lack of sleep. Rest in a quiet place and drink water.",
+    "red_flag": false
+  },
+  {
+    "symptom": "headache_severe",
+    "category": "emergency",
+    "examples": [
+      "worst headache",
+      "sudden sharp pain in head"
+    ],
+    "response": "A sudden severe headache can be serious. Please seek urgent medical attention.",
+    "red_flag": true
+  },
+  {
+    "symptom": "stomach_pain_mild",
+    "category": "general",
+    "examples": [
+      "stomach ache",
+      "pain in stomach"
+    ],
+    "response": "Mild stomach pain may be due to indigestion or gas. Drink warm water and avoid heavy meals.",
+    "red_flag": false
+  },
+  {
+    "symptom": "stomach_pain_severe",
+    "category": "emergency",
+    "examples": [
+      "severe stomach pain",
+      "cannot stand due to stomach pain"
+    ],
+    "response": "Severe stomach pain can indicate appendicitis or other emergencies. Please visit a hospital immediately.",
+    "red_flag": true
+  },
+  {
+    "symptom": "vomiting_mild",
+    "category": "general",
+    "examples": [
+      "vomiting once",
+      "nausea"
+    ],
+    "response": "Mild vomiting may be due to acidity or food-related issues. Stay hydrated and rest.",
+    "red_flag": false
+  },
+  {
+    "symptom": "vomiting_persistent",
+    "category": "emergency",
+    "examples": [
+      "vomiting non stop",
+      "can't keep water down"
+    ],
+    "response": "Persistent vomiting can cause dehydration. Please seek medical care immediately.",
+    "red_flag": true
+  },
+  {
+    "symptom": "diarrhea_mild",
+    "category": "general",
+    "examples": [
+      "loose motion",
+      "mild diarrhea"
+    ],
+    "response": "Drink ORS and stay hydrated. Avoid oily foods.",
+    "red_flag": false
+  },
+  {
+    "symptom": "diarrhea_severe",
+    "category": "emergency",
+    "examples": [
+      "diarrhea with blood",
+      "very watery stools repeatedly"
+    ],
+    "response": "Severe diarrhea can cause dehydration. Visit a hospital immediately.",
+    "red_flag": true
+  },
+  {
+    "symptom": "chest_pain_mild",
+    "category": "general",
+    "examples": [
+      "chest discomfort",
+      "tightness after eating"
+    ],
+    "response": "Mild chest discomfort may be due to acidity. Rest and avoid heavy meals.",
+    "red_flag": false
+  },
+  {
+    "symptom": "chest_pain_severe",
+    "category": "emergency",
+    "examples": [
+      "severe chest pain",
+      "pain spreading to arm"
+    ],
+    "response": "Severe chest pain can indicate a heart emergency. Please call for help or visit a hospital immediately.",
+    "red_flag": true
+  },
+  {
+    "symptom": "dizziness",
+    "category": "general",
+    "examples": [
+      "dizzy",
+      "lightheaded"
+    ],
+    "response": "Dizziness may happen due to dehydration or weakness. Drink water and sit down.",
+    "red_flag": false
+  },
+  {
+    "symptom": "dizziness_severe",
+    "category": "emergency",
+    "examples": [
+      "fainting",
+      "blackout"
+    ],
+    "response": "Fainting or blackouts require immediate medical care.",
+    "red_flag": true
+  },
+  {
+    "symptom": "allergy_mild",
+    "category": "general",
+    "examples": [
+      "skin itching",
+      "mild rash"
+    ],
+    "response": "Mild allergies can be soothed with cool compress and avoiding triggers.",
+    "red_flag": false
+  },
+  {
+    "symptom": "allergy_severe",
+    "category": "emergency",
+    "examples": [
+      "swelling of face",
+      "cannot breathe due to allergy"
+    ],
+    "response": "Severe allergy reactions can be life-threatening. Please seek emergency care.",
+    "red_flag": true
+  },
+  {
+    "symptom": "asthma_mild",
+    "category": "chronic",
+    "examples": [
+      "mild wheeze",
+      "chest tightness"
+    ],
+    "response": "Mild asthma symptoms usually improve with prescribed inhalers. Avoid dust and allergens.",
+    "red_flag": false
+  },
+  {
+    "symptom": "asthma_attack",
+    "category": "emergency",
+    "examples": [
+      "severe wheezing",
+      "cannot breathe"
+    ],
+    "response": "A severe asthma attack is an emergency. Please seek immediate help.",
+    "red_flag": true
+  },
+  {
+    "symptom": "bp_high",
+    "category": "chronic",
+    "examples": [
+      "high bp",
+      "hypertension"
+    ],
+    "response": "Keep a record of blood pressure, reduce salt, and follow doctor\u2019s guidance.",
+    "red_flag": false
+  },
+  {
+    "symptom": "bp_very_high",
+    "category": "emergency",
+    "examples": [
+      "bp 180/120",
+      "headache with high BP"
+    ],
+    "response": "Very high BP with headache or chest pain is dangerous. Seek immediate medical help.",
+    "red_flag": true
+  },
+  {
+    "symptom": "diabetes_general",
+    "category": "chronic",
+    "examples": [
+      "high sugar",
+      "feel thirsty often"
+    ],
+    "response": "Monitor blood sugar, stay hydrated, and follow diet recommended by your doctor.",
+    "red_flag": false
+  },
+  {
+    "symptom": "pregnancy_mild",
+    "category": "general",
+    "examples": [
+      "morning sickness",
+      "mild cramps"
+    ],
+    "response": "Mild cramps and nausea are common. Rest well and stay hydrated.",
+    "red_flag": false
+  },
+  {
+    "symptom": "pregnancy_bleeding",
+    "category": "emergency",
+    "examples": [
+      "pregnancy bleeding",
+      "severe abdominal pain in pregnancy"
+    ],
+    "response": "Bleeding during pregnancy is an emergency. Please seek urgent care.",
+    "red_flag": true
+  },
+  {
+    "symptom": "injury_small",
+    "category": "general",
+    "examples": [
+      "small cut",
+      "minor injury"
+    ],
+    "response": "Clean the wound gently and apply antiseptic.",
+    "red_flag": false
+  },
+  {
+    "symptom": "injury_heavy_bleeding",
+    "category": "emergency",
+    "examples": [
+      "heavy bleeding",
+      "cannot stop bleeding"
+    ],
+    "response": "Heavy bleeding requires immediate medical attention.",
+    "red_flag": true
+  },
+  {
+    "symptom": "burn_minor",
+    "category": "general",
+    "examples": [
+      "small burn",
+      "touched hot pan"
+    ],
+    "response": "Run the area under cool water for 10 minutes.",
+    "red_flag": false
+  },
+  {
+    "symptom": "burn_major",
+    "category": "emergency",
+    "examples": [
+      "large burn",
+      "skin peeling"
+    ],
+    "response": "Large burns are emergencies. Seek immediate help.",
+    "red_flag": true
+  },
+  {
+    "symptom": "unknown_symptom",
+    "category": "unknown",
+    "examples": [
+      "not sure what this is",
+      "weird symptom"
+    ],
+    "response": "I cannot identify this symptom. If it's severe or worsening, please consult a healthcare professional.",
+    "red_flag": false
+  }
+]
